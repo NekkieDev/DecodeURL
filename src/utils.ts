@@ -1,10 +1,10 @@
-function removeSpecialChars(str) {
-    return str.replace(/[?\-]/g, "");
+function removeSpecialChars(url: string): string {
+    return url.replace(/[?\-]/g, "");
 
 }
 
-function replaceASCIII(str) {
-    return str.replace(/%3D|%26/g, match => ({ '%3D': '=', '%26': '&' }[match]));
+function replaceASCIII(url: string): string {
+    return url.replace(/%3D|%26/g, match => ({ '%3D': '=', '%26': '&' }[match], ""));
 }
 
 export {
