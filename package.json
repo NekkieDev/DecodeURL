@@ -1,0 +1,26 @@
+{
+  "name": "decodeurl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "yarn test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NekkieDev/DecodeURL.git"
+  },
+  "author": "Valter Ferreira",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "ˆ5.0.0",
+    "dotenv": "ˆ16.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "ˆ20.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/NekkieDev/DecodeURL/issues"
+  },
+  "homepage": "https://github.com/NekkieDev/DecodeURL#readme"
+}
